@@ -1,0 +1,116 @@
+.bookingContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+
+.movieSelect{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    height: 20px;
+    font-size: 13px;
+    color: purple;
+    font-weight: 500;
+    justify-content: center;
+}
+
+.totalDiv{
+    box-shadow: 0rem 0rem 1rem gainsboro;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.seatIndicationDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background: gainsboro;
+    border-radius: 5px;
+    height: 45px;
+    align-items: center;
+    gap: 10px;
+    width: 350px
+}
+
+.seatIndication{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.indicatorDiv{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.indicator{
+    width: 20px;
+    height: 20px;
+    background: white;
+}
+
+.seatingDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.seating{
+    display: inline-grid;
+    grid-template-columns: repeat(8, auto);
+    background: gainsboro;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    border-radius: 2px;
+}
+
+.seats{
+    width: 20px;
+    height: 20px;
+    background: white;
+    margin: 10px;
+    cursor: pointer;
+    border: 0;
+}
+
+.selectedSeat{
+    width: 20px;
+    height: 20px;
+    background: green;
+    margin: 10px;
+    cursor: pointer;
+    border: 0;
+}
+
+.occupied{
+    width: 20px;
+    height: 20px;
+    background: darkslategrey;
+    margin: 10px;
+    border: 0;
+    cursor: not-allowed;
+}
+
+.footerdiv{
+    display: grid;
+    justify-content: center;
+}
+
+.bookButtonDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.bookButton{
+    height: 40px;
+    border: 0;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    width: 100px;
+    cursor: pointer;
+}
+
