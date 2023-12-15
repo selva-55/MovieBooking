@@ -92,7 +92,7 @@ const MovieBooking = () => {
                     </div>
                 </div>
                 <div className='footerdiv'>
-                    <p>You have selected {selectSeat.length} seats for a price of {selectSeat.length*100}</p>
+                    <p>You have selected {selectSeat.length} seats for a price of {selectSeat.length*200}</p>
                     <div className='bookButtonDiv'>
                         <button className='bookButton' onClick={() => handleBook()}>Book</button>
                     </div>
